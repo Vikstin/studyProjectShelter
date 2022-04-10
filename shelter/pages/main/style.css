@@ -4,13 +4,13 @@ html {
 }
 body {
     margin: 0 auto;
-    background-color: #E5E5E5;
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     max-width: 1280px;
 }
-.wrapper {
+/* .wrapper {
     max-width: 1200px;
     display: flex;
-}
+} */
 :root {
     --font-h2-size: 44px;
     --font-h3-size: 35px;
@@ -41,13 +41,19 @@ body {
 }
 
 /* Header styles start */
+.start-screen {
+    max-width: 1280px;
+    background: url(/assets/images/start-screen-background.jpg); 
+}
 .header_ {
     display: flex;
     flex-direction: row;
-    background: url(/assets/images/start-screen-background.jpg); 
-    padding: 60px 40px 223px 40px;
+    padding: 60px 40px 60px 40px;
 }
-h2 {
+h1 {
+    margin: 0;
+}
+.logo-link {
     color: var(--color-primary);
     font-size: var(--font-logo-size);
     font-family: var(--font-family-G);
@@ -58,7 +64,8 @@ h2 {
     align-items: center;
     padding-right: 573px;
     padding-bottom: 10px;
-    margin: 0;
+    text-decoration: none;
+    
 }
 .logo-subtitle {
     color: var(--color-light-xl);
@@ -72,11 +79,13 @@ h2 {
 .nav-menu {
     display: flex;
     padding-top: 16px;
+    height: 27px;
 }
 .nav-list {
     display: flex;
-    flex-direction: row;
-    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 0;
     list-style: none;
     gap: 35px;
     padding: 0;
@@ -88,9 +97,11 @@ h2 {
     font-size: var(--font-h5-size);
     line-height: var(--font-line-h-24);
     color: var(--color-light-s);
-    border-bottom: 1px solid var(--color-primary);
+    text-decoration: none;
+    /* border-bottom: 1px solid var(--color-primary); */
 }
-.nav-item {
+.nav-link {
+    text-decoration: none;
     color: var(--color-dark-s);
     font-family: var(--font-logo-sub-Ar);
     font-style: normal;
@@ -99,5 +110,16 @@ h2 {
     line-height: var(--font-line-h-24);
 }
 
-
 /* Header styles end */     
+
+/* Start-screen styles start */
+.start-screen-content {
+    display: flex;
+    padding: 0 40px;
+}
+
+
+
+
+
+/* Start-screen styles end */
