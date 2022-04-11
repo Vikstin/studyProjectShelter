@@ -440,3 +440,46 @@ h3 {
     padding-top: 20px;
 }
 /* Donation styles end */
+
+/* Footer styles start */
+footer {
+    display: flex;
+    background: url(/assets/images/footer-background.png);
+    padding: 55px 40px 0px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+.mail {
+    display: flex;
+    padding: 40px 0px;
+}
+.mail-icon,
+.phone-icon {
+    width: 40px;
+    padding-right: 20px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+}
+.boston,
+.london {
+    display: flex;
+}
+.boston {
+    padding: 34px 0 32px;
+}
+.icon-marker {
+    padding-right: 20px;
+}
+/* Footer styles end */
