@@ -214,8 +214,9 @@ h5 {
     color: var(--color-dark-3xl);
     
 }
-.button-make:hover {
+.button-primary:hover {
     background: var(--color-primary-light);
+    cursor: pointer;
 }
 
 /* Start-screen styles end */
@@ -257,7 +258,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 40px 112px;
+    padding: 80px 40px 100px;
 }
 .heading-pets {
     display: flex;
@@ -281,6 +282,7 @@ h3 {
     background: var(--color-primary-light);
     border-radius: 100px;
     border: var(--color-primary-light);
+    cursor: pointer;
 }
 .arrow {
     color: var(--color-dark-3xl);
@@ -297,6 +299,16 @@ h3 {
     flex-direction: column;
     align-items: center;
 }
+.card:hover {
+    background: var(--color-light-xl);
+    cursor: pointer;
+}
+.button-secondary:hover {
+    background: #FDDCC4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
 .pets-card-title {
     font-family: var(--font-family-G);
     font-style: normal;
