@@ -114,7 +114,7 @@ h5 {
 
 .start-screen {
     max-width: 1280px;
-    background: url(/assets/images/start-screen-background.jpg); 
+    background: url(../../assets/images/start-screen-background.jpg); 
 }
 .header_ {
     display: flex;
@@ -435,7 +435,7 @@ h5 {
 /* Footer styles start */
 footer {
     display: flex;
-    background: url(/assets/images/footer-background.png);
+    background: url(../../assets/images/footer-background.png);
     padding: 55px 40px 0px;
 }
 .footer-content {
