@@ -487,4 +487,8 @@ footer {
 .footer-h4 {
     color: var(--color-primary);
 }
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}
 /* Footer styles end */
