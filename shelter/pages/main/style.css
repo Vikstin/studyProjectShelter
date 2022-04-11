@@ -94,6 +94,7 @@ h5 {
     line-height: var(--font-line-h-17);
     letter-spacing: var(--font-letter-sp-006);
     color: var(--color-dark-l);
+    margin: 0;
 }
 .paragraph-l {
     font-family: var(--font-logo-sub-Ar);
@@ -393,3 +394,49 @@ h3 {
 }
 
 /* Help styles end */
+
+/* Donation styles start */
+
+.donation {
+    background: var(--color-light-l);
+    display: flex;
+}
+.donation-content {
+    display: flex;
+    padding: 80px 182px 100px 183px;
+}
+.content-donation {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.name-bank {
+    padding: 20px 0 20px;
+}
+.credit-card {
+    display: flex;
+    background: var(--color-primary);
+    border-radius: 9px;
+    padding: 10px 15px;
+    width: 320px;
+}
+.credit-card:hover {
+    cursor: pointer;
+    background: var(--color-primary-light);
+}
+.credit-card-img {
+    padding-right: 15px;
+}
+.card-link {
+    text-decoration: none;
+}
+.donation-description {
+    font-family: var(--font-logo-sub-Ar);
+    font-style: italic;
+    font-weight: var(--font-weight-400);
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-dark-m);
+    padding-top: 20px;
+}
+/* Donation styles end */
