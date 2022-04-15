@@ -162,7 +162,7 @@ h1 {
     font-weight: var(--font-weight-400);
     font-size: var(--font-h5-size);
     line-height: var(--font-line-h-24);
-    color: var(--color-dark-3xl);
+    color: var(--color-dark-l);
     text-decoration: none;
     border-bottom: 1px solid var(--color-primary);
     align-self: stretch;
@@ -177,8 +177,7 @@ h1 {
     line-height: var(--font-line-h-24);
 }
 .nav-link:hover {
-    color: var(--color-light-s);
-    border-bottom: 1px solid var(--color-primary);
+    color: var(--color-dark-3xl);
 }
 
 /* Header styles end */
@@ -253,11 +252,14 @@ h1 {
     gap: 20px;
 }
 .paginator_inactive {
-    border: 2px solid var(--color-dark-s);
     box-sizing: border-box;
     border-radius: 100px;
+    border: 2px solid var(--color-dark-s);
     width: 52px;
     height: 52px;
+}
+.paginator_inactive:disabled {
+    cursor: not-allowed;
 }
 .paginator_active {
     background: var(--color-primary);
@@ -273,12 +275,16 @@ h1 {
     width: 52px;
     height: 52px;
 }
-
+.paginator_active:hover {
+    cursor: default;
+}
+.paginator:hover {
+    cursor: pointer;
+    background: var(--color-primary-light);
+    border: var(--color-primary-light);
+}
 
 /* Pets styles end */
-
-
-
 
 /* Footer styles start */
 footer {
