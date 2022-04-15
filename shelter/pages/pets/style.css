@@ -117,6 +117,7 @@ h5 {
     flex-direction: row;
     padding: 30px 40px;
     height: 60px;
+    background: var(--color-light-xl);
 }
 h1 {
     margin-bottom: 10px;
@@ -179,6 +180,102 @@ h1 {
     color: var(--color-light-s);
     border-bottom: 1px solid var(--color-primary);
 }
+
+/* Header styles end */
+
+/* Pets styles start */
+
+.pets {
+    background: var(--color-light-l);
+}
+.pets-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 40px 100px;
+}
+.heading-pets {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.cards_container {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 30px;
+    column-gap: 40px;
+    padding-top: 15px;
+    margin-bottom: 60px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card:hover {
+    background: var(--color-light-xl);
+    cursor: pointer;
+}
+.card:hover .button-secondary {
+    background: #FDDCC4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.pets-card-title {
+    font-family: var(--font-family-G);
+    font-style: normal;
+    font-weight: var(--font-weight-400);
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: var(--color-dark-l);
+    padding: 30px 0;
+}
+.button-secondary {
+    border: 2px solid var(--color-primary);
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 187px;
+    height: 52px;
+    font-family: var(--font-family-G);
+    font-style: normal;
+    font-weight: var(--font-weight-400);
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: var(--font-letter-sp-006);
+    color: var(--color-dark-3xl);
+    margin-bottom: 30px;
+}
+.button-pets {
+    width: 261px;
+}
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+.paginator_inactive {
+    border: 2px solid var(--color-dark-s);
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+}
+.paginator_active {
+    background: var(--color-primary);
+    border-radius: 100px;
+    border: transparent;
+    width: 52px;
+    height: 52px;
+}
+.paginator {
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
+}
+
+
+/* Pets styles end */
 
 
 
