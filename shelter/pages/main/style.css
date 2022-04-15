@@ -180,7 +180,6 @@ h1 {
 }
 .nav-link:hover {
     color: var(--color-light-s);
-    border-bottom: 1px solid var(--color-primary);
 }
 
 /* Header styles end */     
