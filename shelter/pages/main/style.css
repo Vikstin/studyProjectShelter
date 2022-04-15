@@ -115,17 +115,23 @@ h5 {
 .start-screen {
     max-width: 1280px;
     background: url(../../assets/images/start-screen-background.jpg); 
+    
 }
 .header_ {
     display: flex;
     flex-direction: row;
     padding: 60px 40px 60px 40px;
+    height: 60px;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.logo {
+    padding-right: 573px;
 }
 .logo-link {
     color: var(--color-primary);
     align-items: center;
-    padding-right: 573px;
-    padding-bottom: 10px;
     text-decoration: none;
     
 }
@@ -137,6 +143,7 @@ h5 {
     line-height: var(--font-line-h-logo-sub);
     letter-spacing: var(--font-letter-sp-logo-sub); 
     font-style: normal;
+    padding-left: 4px;
 }
 .nav-menu {
     display: flex;
@@ -160,7 +167,7 @@ h5 {
     line-height: var(--font-line-h-24);
     color: var(--color-light-s);
     text-decoration: none;
-    /* border-bottom: 1px solid var(--color-primary); */
+    border-bottom: 1px solid var(--color-primary);
 }
 .nav-link {
     text-decoration: none;
@@ -171,6 +178,10 @@ h5 {
     font-size: var(--font-h5-size);
     line-height: var(--font-line-h-24);
 }
+.nav-link:hover {
+    color: var(--color-light-s);
+    border-bottom: 1px solid var(--color-primary);
+}
 
 /* Header styles end */     
 
@@ -179,12 +190,14 @@ h5 {
 .start-screen-content {
     display: flex;
     padding: 0 40px;
+    height: 728px;
 }
 .content {
     display: flex;
     flex-direction: column;
-    padding: 170px 42px 243px 0px;
+    padding: 163px 42px 243px 0px;
     align-items: flex-start;
+    height: 322px;
 }
 
 .subheading {
@@ -282,7 +295,7 @@ h5 {
 .cards {
     display: flex;
     gap: 90px;
-    padding: 60px 53px 90px;  
+    padding: 60px 53px 60px;  
 }
 .card {
     display: flex;
@@ -293,12 +306,11 @@ h5 {
     background: var(--color-light-xl);
     cursor: pointer;
 }
-.button-secondary:hover {
+.card:hover .button-secondary {
     background: #FDDCC4;
     border-radius: 100px;
     cursor: pointer;
 }
-
 .pets-card-title {
     font-family: var(--font-family-G);
     font-style: normal;
@@ -322,6 +334,7 @@ h5 {
     line-height: 22px;
     letter-spacing: var(--font-letter-sp-006);
     color: var(--color-dark-3xl);
+    margin-bottom: 30px;
 }
 .button-pets {
     width: 261px;
@@ -346,13 +359,14 @@ h5 {
 .list {
     display: flex;
     flex-flow: row wrap;
+    
     padding: 60px 87px 0px;
 }
 .list-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 120px;
+    gap: 119px;
     padding-bottom: 55px;
     height: 113px;
 }
@@ -361,7 +375,7 @@ h5 {
     flex-direction: row;
     justify-content: center;
     height: 113px;
-    gap: 120px;
+    gap: 119px;
     padding: 0px 84px;
 }
 .list-item {
@@ -396,6 +410,10 @@ h5 {
     display: flex;
     padding: 80px 182px 100px 183px;
 }
+.donation-dog {
+    padding-top: 11px;
+    height: 261px;
+}
 .content-donation {
     display: flex;
     flex-direction: column;
@@ -403,6 +421,7 @@ h5 {
 }
 .name-bank {
     padding: 20px 0 20px;
+    align-items: center;
 }
 .credit-card {
     display: flex;
@@ -436,7 +455,7 @@ h5 {
 footer {
     display: flex;
     background: url(../../assets/images/footer-background.png);
-    padding: 55px 40px 0px;
+    padding: 40px 40px 0px;
 }
 .footer-content {
     display: flex;
@@ -446,11 +465,14 @@ footer {
 .footer-contacts {
     display: flex;
     flex-direction: column;
+    width: 279px;
+    padding-top: 16px;
     margin-right: 160px;
+
 }
 .mail {
     display: flex;
-    padding: 42px 0px;
+    padding: 40px 0px;
     color: var(--color-primary);
 }
 .phone {
@@ -461,18 +483,18 @@ footer {
     width: 40px;
     padding-right: 20px;
 }
-
 .locations {
     display: flex;
     flex-direction: column;
-    margin-right: 160px;
+    margin-right: 165px;
+    padding-top: 16px;
 }
 .boston,
 .london {
     display: flex;
 }
 .boston {
-    padding: 36px 0 32px;
+    padding: 34px 0 34px;
 }
 .icon-marker {
     padding-right: 20px;
