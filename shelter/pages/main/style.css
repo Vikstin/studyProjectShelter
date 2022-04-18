@@ -405,7 +405,7 @@ h1 {
     background: var(--color-light-l);
     display: flex;
 }
-.donation-content {
+.donation-box {
     display: flex;
     padding: 80px 182px 100px 183px;
 }
@@ -513,12 +513,12 @@ footer {
 
 /* Responsive For max-width: 768px */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1280px) {
     
     /* Header */
 
     .start-screen {
-        width: 100vw;
+        max-width: 100vw;
         background: url(../../assets/images/start-screen-background-small.png);
     }
     .header_{
@@ -531,6 +531,7 @@ footer {
     /* Start-screen */
 
     .start-screen-content {
+        max-width: 100vw;
         flex-direction: column;
         padding: 0 100px 0 99px;
         height: 1015px;
@@ -590,6 +591,39 @@ footer {
     }
     .card-slide {
         display: none;
+    }
+
+    /* Help */
+
+    .help {
+        max-width: 100vw;
+    }
+    .help-content {
+        padding: 80px 69px 100px;
+    }
+    .list {
+        padding: 60px 0 0;
+    }
+    .list-1 {
+        width: 100%;
+    }
+
+    /* Donation */
+
+    .donation {
+        width: 100vw;
+    }
+    .donation-box {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .content-donation {
+        width: 380px;
+        padding: 80px 194px 50px;
+        justify-content: center;
+    }
+    .donation-dog {
+        padding: 0 131px 100px;
     }
 
 
