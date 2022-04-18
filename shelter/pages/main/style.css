@@ -509,3 +509,40 @@ footer {
     cursor: pointer;
 }
 /* Footer styles end */
+
+
+/* For max-width: 768px */
+@media (max-width: 768px) {
+    .start-screen {
+        width: 100vw;
+    }
+    .header_{
+        padding: 30px 30px 60px;
+    }
+    .logo {
+        padding-right: 81px;
+    }
+    .start-screen-content {
+        flex-direction: column;
+        padding: 0 100px 0 99px;
+        height: 1015px;
+        
+    }
+    .content {
+        display: flex;
+        padding: 0 55px 100px;
+        align-items: center;
+        /* height: 322px; */
+    }
+    .start-screen-header {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .start-screen-pappy {
+        padding-right: 30px;
+    }
+    .screen-pappy {
+        width: 569px;
+        height: 593px;
+    }
+}
