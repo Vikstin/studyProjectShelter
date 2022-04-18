@@ -235,14 +235,14 @@ h1 {
 .about {
     background: var(--color-light-xl);
 }
-.about-content {
+.about-box {
     display: flex;
     flex-direction: row ;
     padding: 80px 40px 100px;
 }
 .about-pets {
     padding-left: 175px;
-    width: 300px;
+    width: 300px;   
 }
 .content-about {
     display: flex;
@@ -509,3 +509,89 @@ footer {
     cursor: pointer;
 }
 /* Footer styles end */
+
+
+/* Responsive For max-width: 768px */
+
+@media (max-width: 768px) {
+    
+    /* Header */
+
+    .start-screen {
+        width: 100vw;
+        background: url(../../assets/images/start-screen-background-small.png);
+    }
+    .header_{
+        padding: 30px 30px 60px;
+    }
+    .logo {
+        padding-right: 81px;
+    }
+
+    /* Start-screen */
+
+    .start-screen-content {
+        flex-direction: column;
+        padding: 0 100px 0 99px;
+        height: 1015px;
+    }
+    .content {
+        display: flex;
+        padding: 0 55px 100px;
+        align-items: center;
+    }
+    .start-screen-header {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .start-screen-pappy {
+        padding-right: 30px;
+    }
+    .screen-pappy {
+        width: 569px;
+        height: 593px;
+    }
+
+    /* About  */
+
+    .about-box {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 80px 166px 100px 165px;
+    }
+    .content-about {
+        padding: 0 4px 80px;
+        justify-content: center;
+    }
+    .about-header {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .about-pets {
+        padding: 0;
+    }
+
+    /* Our friends */
+
+    .pets-content {
+        padding: 80px 30px 100px;
+        overflow: hidden;
+    }
+    .slider {
+        width: 708px;
+        height: 435px;
+        padding: 60px 0px;
+    }
+    .cards {
+        position: absolute;
+        justify-content: space-around;
+        gap: 35px;
+        padding: 60px 68px 60px; 
+    }
+    .card-slide {
+        display: none;
+    }
+
+
+
+}
