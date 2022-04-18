@@ -459,7 +459,6 @@ footer {
 .footer-content {
     display: flex;
     flex-direction: row;
-    
 }
 .footer-contacts {
     display: flex;
@@ -626,6 +625,25 @@ footer {
         padding: 0 131px 100px;
     }
 
+    /* Footer  */
 
-
+    footer {
+        width: 100vw;
+        flex-direction: column;
+        padding: 0;
+        background: url(../../assets/images/start-screen-background-small.png);
+    }
+    .footer-content {
+        justify-content: center;
+        padding: 30px 30px 65px;
+    }
+    .footer-puppy {
+        height: 310px;
+        width: 300px;
+    }
+    .footer-contacts {
+        margin-right: 60px;
+        width: 278px;
+    }
+    
 }
