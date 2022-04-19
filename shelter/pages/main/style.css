@@ -357,10 +357,12 @@ h1 {
 .list {
     display: flex;
     flex-flow: row wrap;
-    
+    justify-content: space-between;
+    gap: 119px;
+    row-gap: 55px;
     padding: 60px 87px 0px;
 }
-.list-1 {
+/* .list-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -375,11 +377,12 @@ h1 {
     height: 113px;
     gap: 119px;
     padding: 0px 84px;
-}
+} */
 .list-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .img-list {
     height: 60px;
@@ -522,6 +525,7 @@ footer {
     }
     .header_{
         padding: 30px 30px 60px;
+        justify-content: space-between;
     }
     .logo {
         padding-right: 81px;
@@ -580,8 +584,12 @@ footer {
 
     /* Our friends */
 
+    .pets {
+        width: 100vw;
+        justify-content: center;
+    }
     .pets-content {
-        padding: 80px 30px 100px;
+        padding: 80px 0 100px;
         overflow: hidden;
     }
     .slider {
@@ -602,34 +610,40 @@ footer {
     /* Help */
 
     .help {
-        max-width: 100vw;
+        width: 100vw;
+        justify-content: center;
     }
     .help-content {
-        padding: 80px 69px 100px;
+        width: 630px;
     }
     .list {
         padding: 60px 0 0;
+        gap: 60px;
+        row-gap: 55px;
     }
-    .list-1 {
-        width: 100%;
+    .list-item {
+        width: 170px;
     }
-
+    
     /* Donation */
 
     .donation {
         width: 100vw;
+        justify-content: center;
     }
     .donation-box {
         flex-direction: column-reverse;
         padding: 0;
+        align-items: center;
     }
     .content-donation {
         width: 380px;
-        padding: 80px 194px 50px;
+        padding: 80px 0 60px;
         justify-content: center;
     }
     .donation-dog {
-        padding: 0 131px 100px;
+        padding: 0 0 100px;
+        height: 261px;
     }
 
     /* Footer  */
@@ -637,21 +651,26 @@ footer {
     footer {
         width: 100vw;
         flex-direction: column;
-        padding: 0;
+        align-items: center;
+        padding: 30px 0 0;
         background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     }
     .footer-content {
-        width: 100%;
+        width: 708px;
         justify-content: center;
-        padding: 30px 30px 65px;
+        padding-bottom: 53px;
+    }
+    .footer-contacts {
+        padding-top: 0;
+        margin-right: 0;
+        margin-right: 60px;
+    }
+    .locations {
+        margin-right: 0;
+        padding-top: 0;
     }
     .footer-puppy {
         height: 310px;
         width: 300px;
     }
-    .footer-contacts {
-        margin-right: 60px;
-        width: 278px;
-    }
-    
 }
