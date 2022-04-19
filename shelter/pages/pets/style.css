@@ -347,3 +347,68 @@ footer {
     cursor: pointer;
 }
 /* Footer styles end */
+
+
+/* Responsive */
+/* For max-width: 768px */
+
+@media (max-width: 1279px) {
+    
+    /* Header */
+    .header_ {
+        width: 100vw;
+        padding: 30px 30px;
+        justify-content: space-between;
+    }
+    .logo {
+        padding-right: 81px;
+    }
+
+    /* Our Friends */
+
+    .pets {
+        width: 100vw;
+    }
+    .pets-content {
+        padding: 200px 0 76px;
+    }
+    .heading-pets {
+        padding-bottom: 15px;
+    }
+    .cards_container {
+        justify-content: center;
+        width: 580px;
+        margin-bottom: 40px;
+    }
+    .card-none {
+        display: none;
+    }
+
+    /* Footer  */
+
+    footer {
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        padding: 33px 0 0;
+        background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+    }
+    .footer-content {
+        width: 708px;
+        justify-content: center;
+        padding-bottom: 53px;
+    }
+    .footer-contacts {
+        padding-top: 0;
+        margin-right: 0;
+        margin-right: 60px;
+    }
+    .locations {
+        margin-right: 0;
+        padding-top: 0;
+    }
+    .footer-puppy {
+        height: 310px;
+        width: 300px;
+    }
+}
