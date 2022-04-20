@@ -795,6 +795,7 @@ footer {
         padding: 42px 0 0;
         gap: 30px;
         row-gap: 30px;
+        width: 290px;
     }
     .list-item {
         width: 130px;
@@ -808,5 +809,65 @@ footer {
         font-size: 15px;
         line-height: 17px;
         padding-top: 20px;
+    }
+
+    /* Donation */
+
+    .content-donation {
+        width: 300px;
+        align-items: center;
+        text-align: center;
+        padding: 43px 0 42px;
+    }
+    .name-bank {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .credit-card {
+        width: 251px;
+        
+    }
+    .card-link {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .donation-description {
+        text-align: justify;
+        width: 280px;
+    }
+    .donation-dog {
+        width: 260px;
+        height: 135px;
+        padding-bottom: 42px;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 30px 0 0px;
+        text-align: center;
+    }
+    .footer-content {
+        width: 300px;
+        flex-wrap: wrap;
+        padding-bottom: 35px;
+    }
+    .footer-contacts {
+        margin-right: 0;
+        text-align: center;
+        padding-bottom: 32px;
+    }
+    .mail {
+        padding: 40px 0 40px;
+    }
+    .footer-h3 {
+        width: 270px;
+    }
+    .boston {
+        padding: 40px 0 42px;
+    }
+    .footer-puppy {
+        width: 260px;
+        height: 269px;
     }
 }
