@@ -414,15 +414,7 @@ h1 {
 .img-list {
     height: 60px;
 }
-.pet-food-text,
-.transportation-text,
-.toys-text,
-.bowls-and-cups-text,
-.shampoos-text,
-.vitamins-text,
-.medicines-text,
-.collars-leashes-text,
-.sleeping-area-text {
+.pet-text {
     padding-top: 30px;
 }
 
@@ -630,7 +622,7 @@ footer {
         gap: 35px;
         padding: 60px 68px 60px; 
     }
-    .card-slide {
+    .card-slide-768 {
         display: none;
     }
 
@@ -778,8 +770,43 @@ footer {
         text-align: justify;
     }
 
+    /* Pets */
+    .pets-content {
+        padding: 42px 0 42px;
+    }
+    .slider {
+        justify-content: center;
+        height: 507px;
+        padding: 36px 0px 50px;
+    }
+    .cards {
+        padding: 0px 68px 57px;
+    }
+    .card-slide-320 {
+        display: none;
+    }
 
+    /* Help */
 
-
-
+    .help-content {
+        padding: 40px 15px 42px;
+    }
+    .list {
+        padding: 42px 0 0;
+        gap: 30px;
+        row-gap: 30px;
+    }
+    .list-item {
+        width: 130px;
+        height: 87px;
+    }
+    .img-list {
+        width: 50px;
+        height: 50px;
+    }
+    .pet-text {
+        font-size: 15px;
+        line-height: 17px;
+        padding-top: 20px;
+    }
 }
