@@ -180,6 +180,33 @@ h1 {
 .nav-link:hover {
     color: var(--color-light-s);
 }
+.hamburger .line {
+    display: none;
+    width: 30px;
+    height: 2px;
+    background-color: var(--color-primary);
+    margin: 9px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.hamburger {
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.hamburger.is-active {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.hamburger.is-active .line:nth-child(1) {
+    width: 30px;
+} 
+.hamburger.is-active .line:nth-child(2) {
+    width: 30px;
+}
 
 /* Header styles end */     
 
@@ -673,4 +700,86 @@ footer {
         height: 310px;
         width: 300px;
     }
+}
+
+
+/* 320px <= width < 768px */
+
+@media (max-width: 767px) {
+    :root {
+        --font-h2-size: 25px;
+        --font-line-h-57: 32px;
+        --font-h3-size: 25px;
+        --font-line-h-45: 32px;
+    }
+    
+    /* Header */
+
+    .header_ {
+        padding: 30px 53px 60px 3%;
+    }
+    .logo {
+        padding-right: 41px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-menu {
+        padding-top: 9px;
+    }
+    .hamburger .line {
+        display: block;
+    }
+    h1 {
+        margin-bottom: 8px;
+    }
+
+    /* Start-screen */
+
+    .start-screen-content {
+        height: 673px;
+    }
+    .content {
+       width: 300px;
+       padding: 0;
+       height: 823px;
+       text-align: center;
+    }
+    h2 {
+        padding: 0 0 42px;  
+    }
+    .screen-pappy {
+        width: 260px;
+        height: 271px;
+        top: 402px;
+        right: 10px;
+    }
+
+    /* About */
+
+    .about-box {
+        width: 300px;
+        padding: 42px 0;
+    }
+    .about-pets {
+        width: 260px;
+    }
+    .content-about {
+        width: 300px;
+        text-align: center;
+        padding: 0 0 42px;
+        gap: 22px;
+    }
+    .about-header {
+        justify-content: center;
+    }
+    .paragraph-l {
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+
+
+
+
 }
