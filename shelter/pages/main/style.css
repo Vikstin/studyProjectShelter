@@ -543,6 +543,7 @@ footer {
         background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
     }
     .header_{
+        /* width: 100vw; */
         padding: 30px 30px 60px;
         justify-content: space-between;
     }
